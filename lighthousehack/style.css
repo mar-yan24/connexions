@@ -1,0 +1,145 @@
+
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #f0d9ff;
+
+    font-family: "monaco", monospace;
+    font-size: 12pt;
+    text-align: left;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+       
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+
+   border-width: 2px;
+   border-color: #3e4123;
+   border-style: solid;
+
+    background-color: #fffff5;
+
+    text-align: left;
+  }
+
+  div.page_header {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 246, 247);
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 25px 25px;
+
+    text-align: left;
+    width: 99%;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #3b3b3b;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 3px;
+}
+
+td, th {
+  border: 2px solid #360441;
+  text-align: center;
+  padding: 7px;
+}
+
+video { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
